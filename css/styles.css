@@ -14,8 +14,16 @@
 .gender1{
   color: #BC853D;
   display: flex;
+  border-style: groove;
 }
-.genders {
+#genders {
   background-color: #B7B7B7;
   border-style: groove;
+}
+#date{
+  border-style: ridge;
+  background-color: #D6D8C3;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
 }
