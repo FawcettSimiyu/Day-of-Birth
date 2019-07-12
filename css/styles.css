@@ -9,5 +9,13 @@
   background-color: #67E233;
 }
 .card-body{
+
+}
+.gender1{
+  color: #BC853D;
+  display: flex;
+}
+.genders {
   background-color: #B7B7B7;
+  border-style: groove;
 }
