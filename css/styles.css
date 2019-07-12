@@ -1,1 +1,13 @@
-
+#heading {
+  text-align: center;
+}
+.jumbotron{
+  background-color: skyblue;
+}
+.card-title{
+  text-align: center;
+  background-color: #67E233;
+}
+.card-body{
+  background-color: #B7B7B7;
+}
