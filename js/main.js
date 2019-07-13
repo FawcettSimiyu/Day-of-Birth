@@ -49,6 +49,14 @@ name[5]="Yaw"
 name[6]="Kofi"
 name[0]="Kwame"
 
+function GetSelectedText(){
+				var e = document.getElementById("gender");
+				var result = e.options[e.selectedIndex].text;
+
+				document.getElementById("result").innerHTML = result;
+			}
+
+
 //Day of Week Function
 function compute(form) {
    var val1 = parseInt(form.day.value, 10)
