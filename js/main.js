@@ -75,3 +75,19 @@ function compute(form) {
    var val0 = val8-(val9*7)
    form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
    form.result2.value = days[val0]
+   //Select Male Gender Name
+      if (days[val0]=="Saturday"){
+        form.result3.value = "Kwame"
+      } else if (days[val0]=="Sunday") {
+        form.result3.value = "Kwasi"
+      } else if (days[val0]=="Monday") {
+        form.result3.value= "Kwadwo"
+      } else if (days[val0]=="Tuesday") {
+        form.result3.value ="kwabena"
+      } else if (days[val0]=="Wednesday") {
+        form.result3.value="Kwaku"
+      } else if (days[val0]=="Thursday") {
+        form.result3.value="Yaw"
+      } else {
+        form.result3.value="Kofi"
+      }
