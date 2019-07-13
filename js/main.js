@@ -28,3 +28,12 @@ months[9] = "September"
 months[10] = "October"
 months[11] = "November"
 months[12] = "December"
+//Create Female Names arrays
+names = new MakeArray(7);
+names[1]="Akosua"
+names[2]="Adwao"
+names[3]="Abenaa"
+names[4]="Akua"
+names[5]="Yaa"
+names[6]="Afua"
+names[0]="Ama"
