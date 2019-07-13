@@ -5,7 +5,8 @@ function MakeArray(n) {
      this[i] = 0;
    }
 }
-//Create Week days Array
+
+//Create Weekdays Array
 days = new MakeArray(7);
 days[0] = "Saturday"
 days[1] = "Sunday"
@@ -14,6 +15,7 @@ days[3] = "Tuesday"
 days[4] = "Wednesday"
 days[5] = "Thursday"
 days[6] = "Friday"
+
 //Create Months Array
 months = new MakeArray(12);
 months[1] = "January"
@@ -46,6 +48,7 @@ name[4]="Kwaku"
 name[5]="Yaw"
 name[6]="Kofi"
 name[0]="Kwame"
+
 //Day of Week Function
 function compute(form) {
    var val1 = parseInt(form.day.value, 10)
@@ -75,19 +78,37 @@ function compute(form) {
    var val0 = val8-(val9*7)
    form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
    form.result2.value = days[val0]
-   //Select Male Gender Name
-      if (days[val0]=="Saturday"){
-        form.result3.value = "Kwame"
-      } else if (days[val0]=="Sunday") {
-        form.result3.value = "Kwasi"
-      } else if (days[val0]=="Monday") {
-        form.result3.value= "Kwadwo"
-      } else if (days[val0]=="Tuesday") {
-        form.result3.value ="kwabena"
-      } else if (days[val0]=="Wednesday") {
-        form.result3.value="Kwaku"
-      } else if (days[val0]=="Thursday") {
-        form.result3.value="Yaw"
-      } else {
-        form.result3.value="Kofi"
-      }
+//Select Male Gender Name
+   if (days[val0]=="Saturday"){
+     form.result3.value = "Kwame"
+   } else if (days[val0]=="Sunday") {
+     form.result3.value = "Kwasi"
+   } else if (days[val0]=="Monday") {
+     form.result3.value= "Kwadwo"
+   } else if (days[val0]=="Tuesday") {
+     form.result3.value ="kwabena"
+   } else if (days[val0]=="Wednesday") {
+     form.result3.value="Kwaku"
+   } else if (days[val0]=="Thursday") {
+     form.result3.value="Yaw"
+   } else {
+     form.result3.value="Kofi"
+   }
+//Select Female gender
+  if (days[val0]=="Saturday"){
+    form.result3.value = "Kwame"
+  } else if (days[val0]=="Sunday") {
+    form.result3.value = "Kwasi"
+  } else if (days[val0]=="Monday") {
+    form.result3.value= "Kwadwo"
+  } else if (days[val0]=="Tuesday") {
+    form.result3.value ="kwabena"
+  } else if (days[val0]=="Wednesday") {
+    form.result3.value="Kwaku"
+  } else if (days[val0]=="Thursday") {
+    form.result3.value="Yaw"
+  } else {
+    form.result3.value="Kofi"
+  }
+
+}
