@@ -13,3 +13,12 @@ h6{
   border-color: #D548C2;
   height: 220px;
 }
+.card-title{
+  text-align: center;
+  background-color: #D2DDEC;
+  font-family: gothic;
+}
+.card-body{
+  border-style: inset;
+  border-color: #493046;
+}
