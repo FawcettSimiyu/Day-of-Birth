@@ -37,3 +37,12 @@ names[4]="Akua"
 names[5]="Yaa"
 names[6]="Afua"
 names[0]="Ama"
+//Create Male Names arrays
+name = new MakeArray(7);
+name[1]="Kwasi"
+name[2]="Kwadwo"
+name[3]="kwabena"
+name[4]="Kwaku"
+name[5]="Yaw"
+name[6]="Kofi"
+name[0]="Kwame"
