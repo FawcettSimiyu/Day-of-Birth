@@ -85,13 +85,13 @@ function compute(form) {
    var val0 = val8-(val9*7)
    form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
    form.result2.value = days[val0]
-//Select Male Gender Name
+//Select Gender Name
    if (days[val0]=="Saturday"){
      form.result3.value = "Male:Kwame & Female:Ama"
    } else if (days[val0]=="Sunday") {
      form.result3.value = "Male:Kwasi & Female:Akosua"
    } else if (days[val0]=="Monday") {
-     form.result3.value= "Kwadwo & Female:Adwao"
+     form.result3.value= "Male:Kwadwo & Female:Adwao"
    } else if (days[val0]=="Tuesday") {
      form.result3.value ="Male:kwabena & Female:Abenaa"
    } else if (days[val0]=="Wednesday") {
@@ -101,7 +101,5 @@ function compute(form) {
    } else {
      form.result3.value="Male:Kofi & Female: Afua"
    }
-//Select Female gender
-
 
 }
