@@ -52,7 +52,6 @@ name[0]="Kwame"
 function GetSelectedText(){
 				var e = document.getElementById("gender");
 				var result = e.options[e.selectedIndex].text;
-
 				document.getElementById("result").innerHTML = result;
 			}
 
@@ -88,35 +87,21 @@ function compute(form) {
    form.result2.value = days[val0]
 //Select Male Gender Name
    if (days[val0]=="Saturday"){
-     form.result3.value = "Kwame"
+     form.result3.value = "Male:Kwame & Female:Ama"
    } else if (days[val0]=="Sunday") {
-     form.result3.value = "Kwasi"
+     form.result3.value = "Male:Kwasi & Female:Akosua"
    } else if (days[val0]=="Monday") {
-     form.result3.value= "Kwadwo"
+     form.result3.value= "Kwadwo & Female:Adwao"
    } else if (days[val0]=="Tuesday") {
-     form.result3.value ="kwabena"
+     form.result3.value ="Male:kwabena & Female:Abenaa"
    } else if (days[val0]=="Wednesday") {
-     form.result3.value="Kwaku"
+     form.result3.value="Male:Kwaku & Female: Akua"
    } else if (days[val0]=="Thursday") {
-     form.result3.value="Yaw"
+     form.result3.value="Male:Yaw & Female: Yaa"
    } else {
-     form.result3.value="Kofi"
+     form.result3.value="Male:Kofi & Female: Afua"
    }
 //Select Female gender
-  if (days[val0]=="Saturday"){
-    form.result3.value = "Kwame"
-  } else if (days[val0]=="Sunday") {
-    form.result3.value = "Kwasi"
-  } else if (days[val0]=="Monday") {
-    form.result3.value= "Kwadwo"
-  } else if (days[val0]=="Tuesday") {
-    form.result3.value ="kwabena"
-  } else if (days[val0]=="Wednesday") {
-    form.result3.value="Kwaku"
-  } else if (days[val0]=="Thursday") {
-    form.result3.value="Yaw"
-  } else {
-    form.result3.value="Kofi"
-  }
+
 
 }

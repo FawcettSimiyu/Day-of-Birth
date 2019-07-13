@@ -57,18 +57,24 @@ h6{
 .input{
   background-color: #827EBD;
   border-style: ridge;
-  margin-left: 30px;
+  margin-left: 0px;
 }
 .output {
   background-color: #827EBD;
   border-style: groove;
-  margin-left: 225px;
+  margin-left: 210px;
 }
 .submit{
   background-color: #96A2A2;
   border-style: outset;
-  margin-left: 270px;
+  margin-left: 250px;
 }
 .buttons {
   border-style: ridge;
+}
+.sele{
+  text-align: center;
+  display: flow-root;
+  font-family: gothic;
+  background-color: #AA37CD;
 }
