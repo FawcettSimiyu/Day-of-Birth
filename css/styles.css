@@ -22,3 +22,53 @@ h6{
   border-style: inset;
   border-color: #493046;
 }
+gender1{
+  color: #BC853D;
+  display: flex;
+  border-style: groove;
+}
+#genders {
+  background-color: #B7B7B7;
+  border-style: groove;
+  text-align: center;
+}
+#date{
+  border-style: ridge;
+  background-color: #D6D8C3;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+}
+.sub {
+  border-style: outset;
+  background-color: #1C63A1;
+
+}
+.clear{
+  border-style: outset;
+  background-color: #A1AEB9;
+}
+.birthday{
+  background-color: #C1B0BF;
+  display: flex;
+  border-style: outset;
+  font-family: sans-serif;
+}
+.input{
+  background-color: #827EBD;
+  border-style: ridge;
+  margin-left: 30px;
+}
+.output {
+  background-color: #827EBD;
+  border-style: groove;
+  margin-left: 225px;
+}
+.submit{
+  background-color: #96A2A2;
+  border-style: outset;
+  margin-left: 270px;
+}
+.buttons {
+  border-style: ridge;
+}
