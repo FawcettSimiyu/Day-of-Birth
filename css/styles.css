@@ -1,1 +1,15 @@
-
+#heading {
+  text-align: center;
+  font-family: gothic;
+}
+h6{
+  text-align: center;
+  background-color: #A46E85;
+  font-family: gothic;
+}
+.jumbotron{
+  background-color: skyblue;
+  border-style: groove;
+  border-color: #D548C2;
+  height: 220px;
+}
