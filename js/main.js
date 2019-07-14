@@ -76,28 +76,6 @@ function compute(form) {
       gender_value2x = 14;
       gender_value3 = gender_value3-1;
    }
-   var val4 = parseInt(((val2x+1)*3)/5, 10)
-   var val5 = parseInt(val3/4, 10)
-   var val6 = parseInt(val3/100, 10)
-   var val7 = parseInt(val3/400, 10)
-   var val8 = val1+(val2x*2)+val4+val3+val5-val6+val7+2
-   var val9 = parseInt(val8/7, 10)
-   var val0 = val8-(val9*7)
-   form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
-   form.result2.value = days[val0]
-//Select Gender Name
-   if (days[val0]=="Saturday"){
-     form.result3.value = "Male:Kwame & Female:Ama"
-   } else if (days[val0]=="Sunday") {
-     form.result3.value = "Male:Kwasi & Female:Akosua"
-   } else if (days[val0]=="Monday") {
-     form.result3.value= "Male:Kwadwo & Female:Adwao"
-   } else if (days[val0]=="Tuesday") {
-     form.result3.value ="Male:kwabena & Female:Abenaa"
-   } else if (days[val0]=="Wednesday") {
-     form.result3.value="Male:Kwaku & Female: Akua"
-   } else if (days[val0]=="Thursday") {
-     form.result3.value="Male:Yaw & Female: Yaa"
    var gender_value4 = parseInt(((gender_value2x+1)*3)/5, 10);
    var gender_value5 = parseInt(gender_value3/4, 10);
    var gender_value6 = parseInt(gender_value3/100, 10);
