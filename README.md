@@ -1,7 +1,7 @@
 # Project Name
 ### Name of day of birth: web application
 ## Project Description
-The project is a web application that allows a user to input their date of birth and gender. The web application then computes the day of week the user was born, and based on the gender outputs their relative Akan Name. 
+The project is a web application that allows a user to input their date of birth and gender. The web application then computes the day of week the user was born, and based on the gender outputs their relative Akan Name. Zeller's Calculation formula was used in computation.
 ## Author Information
 Name: Fawcett Simiyu
 Profession: Student at Moringa School
