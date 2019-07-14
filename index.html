@@ -21,13 +21,17 @@
           <h2>Welcome! Please Select Your Gender and Enter Birthday.</h2>
         </div>
         <div class="card-body">
-          <h6>Select Gender</h6>
+          <h6>Selected Gender</h6>
           <div class="sele">
             <select id="gender">
   		        <option value="ID1">Male</option>
               <option value="ID2" selected>Female</option>
   	        </select>
+<<<<<<< HEAD
             <button type="button" onclick="GetSelectedText()">Selected Gender</button><br>
+=======
+            <button type="button" onclick="GetSelectedText()">Check Selected Gender</button><br>
+>>>>>>> master
             <h6>Your Gender Is: </h6>
             <h6 id="result"></h6>
             <h6>Check Akan Name Below</h6>
@@ -46,11 +50,13 @@
                 <h6>Options</h6>
                 <p><input type="button" value="Submit" onclick="compute(this.form)"><input type="reset" value="Restart"></p>
               </div>
+              <div class="output2">
+                <p class="text">Here are your Results User : <input type="text" name="result3" size="80"</p>
+                <p class="text">Day of Week: <input type="text" name="result2" size="16"></p>
+              </div>
               <div class="output">
                 <h6>Birthday, Day Name and Akan Name</h6>
                 <p>Date of Birth: <input type="text" name="result1" size="16"></p>
-                <p>Day of Week: <input type="text" name="result2" size="16"></p>
-                <p>Akan Day Name : <input type="text" name="result3" size="26"</p>
               </div>
             </div>
           </form>
