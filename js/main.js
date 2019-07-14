@@ -58,50 +58,49 @@ function GetSelectedText(){
 
 //Day of Week Function
 function compute(form) {
-   var val1 = parseInt(form.day.value, 10)
-   if ((val1 < 0) || (val1 > 31)) {
+   var gender_value1 = parseInt(form.day.value, 10)
+   if ((gender_value1 < 0) || (gender_value1 > 31)) {
       alert("Invalid Date, PLease Enter the Correct Date")
    }
-   var val2 = parseInt(form.month.value, 10)
-   if ((val2 < 0) || (val2 > 12)) {
+   var gender_value2 = parseInt(form.month.value, 10)
+   if ((gender_value2< 0) || (gender_value2 > 12)) {
       alert("Invalid Month, Please Enter the Correct Month")
    }
-   var val2x = parseInt(form.month.value, 10)
-   var val3 = parseInt(form.year.value, 10)
-   if (val2 == 1) {
-      val2x = 13;
-      val3 = val3-1
+   var gender_value2x = parseInt(form.month.value, 10);
+   var gender_value3 = parseInt(form.year.value, 10);
+   if (gender_value2 == 1) {
+      gender_value2x = 13;
+      gender_value3 = val3-1
    }
-   if (val2 == 2) {
-      val2x = 14;
-      val3 = val3-1
+   if (gender_value2 == 2) {
+      gender_value2x = 14;
+      gender_value3 = gender_value3-1;
    }
-   var val4 = parseInt(((val2x+1)*3)/5, 10)
-   var val5 = parseInt(val3/4, 10)
-   var val6 = parseInt(val3/100, 10)
-   var val7 = parseInt(val3/400, 10)
-   var val8 = val1+(val2x*2)+val4+val3+val5-val6+val7+2
-   var val9 = parseInt(val8/7, 10)
-   var val0 = val8-(val9*7)
-   form.result1.value = months[val2]+" "+form.day.value +", "+form.year.value
-   form.result2.value = days[val0]
-//Select Male Gender Name
-   if (days[val0]=="Saturday"){
-     form.result3.value = "Male:Kwame & Female:Ama"
-   } else if (days[val0]=="Sunday") {
-     form.result3.value = "Male:Kwasi & Female:Akosua"
-   } else if (days[val0]=="Monday") {
-     form.result3.value= "Kwadwo & Female:Adwao"
-   } else if (days[val0]=="Tuesday") {
-     form.result3.value ="Male:kwabena & Female:Abenaa"
-   } else if (days[val0]=="Wednesday") {
-     form.result3.value="Male:Kwaku & Female: Akua"
-   } else if (days[val0]=="Thursday") {
-     form.result3.value="Male:Yaw & Female: Yaa"
+   var gender_value4 = parseInt(((gender_value2x+1)*3)/5, 10);
+   var gender_value5 = parseInt(gender_value3/4, 10);
+   var gender_value6 = parseInt(gender_value3/100, 10);
+   var gender_value7 = parseInt(gender_value3/400, 10);
+   var gender_value8 = gender_value1+(gender_value2x*2)+gender_value4+gender_value3+gender_value5-gender_value6+gender_value7+2
+   var gender_value9 = parseInt(gender_value8/7, 10);
+   var gender_value0 = gender_value8-(gender_value9*7);
+   alert(gender_value0);
+   form.result1.value = months[gender_value2]+" "+form.day.value +", "+form.year.value
+   form.result2.value = days[gender_value0]
+//Select Gender Name
+   if (days[parseInt(gender_value0)] =="Saturday"){
+     form.result3.value = "Selected Male? Akan Name is Kwame."+ " Selected Female? Akan Name is " + names[0];
+   } else if (days[parseInt(gender_value0)] =="Sunday") {
+     form.result3.value = "Selected Male? Akan Name is Kwasi."+ " Selected Female? Akan Name is " + names[1];
+   } else if (days[parseInt(gender_value0)]=="Monday") {
+     form.result3.value= "Selected Male? Akan Name is Kwadwo."+ " Selected Female? Akan Name is " + names[2];
+   } else if (days[parseInt(gender_value0)]=="Tuesday") {
+     form.result3.value ="Selected Male? Akan Name is Kwabena."+ " Selected Female? Akan Name is " + names[3];
+   } else if (days[parseInt(gender_value0)]=="Wednesday") {
+     form.result3.value="Selected Male? Akan Name is Kwaku."+ " Selected Female? Akan Name is " + names[4];
+   } else if (days[parseInt(gender_value0)]=="Thursday") {
+     form.result3.value="Selected Male? Akan Name is Yaw."+ " Selected Female? Akan Name is " + names[5];
    } else {
-     form.result3.value="Male:Kofi & Female: Afua"
+     form.result3.value="Selected Male? Akan Name is Kofi."+ " Selected Female? Akan Name is " + names[6];
    }
-//Select Female gender
-
 
 }

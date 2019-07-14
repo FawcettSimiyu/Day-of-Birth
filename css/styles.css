@@ -62,12 +62,12 @@ h6{
 .output {
   background-color: #827EBD;
   border-style: groove;
-  margin-left: 210px;
+  margin-left: 50px;
 }
 .submit{
   background-color: #96A2A2;
   border-style: outset;
-  margin-left: 250px;
+  margin-left: 50px;
 }
 .buttons {
   border-style: ridge;
@@ -77,4 +77,31 @@ h6{
   display: flow-root;
   font-family: gothic;
   background-color: #AA37CD;
+}
+.output2{
+  border-style: ridge;
+  text-align: center;
+  background-color: grey;
+  text-emphasis-color: blue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: underline solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
+}
+#text{
+  text-align: center;
+  background-color: grey;
+  text-emphasis-color: blue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: underline solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
 }
