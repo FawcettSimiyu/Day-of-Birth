@@ -76,7 +76,6 @@ function compute(form) {
       gender_value2x = 14;
       gender_value3 = gender_value3-1;
    }
-<<<<<<< HEAD
    var val4 = parseInt(((val2x+1)*3)/5, 10)
    var val5 = parseInt(val3/4, 10)
    var val6 = parseInt(val3/100, 10)
@@ -99,7 +98,6 @@ function compute(form) {
      form.result3.value="Male:Kwaku & Female: Akua"
    } else if (days[val0]=="Thursday") {
      form.result3.value="Male:Yaw & Female: Yaa"
-=======
    var gender_value4 = parseInt(((gender_value2x+1)*3)/5, 10);
    var gender_value5 = parseInt(gender_value3/4, 10);
    var gender_value6 = parseInt(gender_value3/100, 10);
@@ -107,7 +105,7 @@ function compute(form) {
    var gender_value8 = gender_value1+(gender_value2x*2)+gender_value4+gender_value3+gender_value5-gender_value6+gender_value7+2
    var gender_value9 = parseInt(gender_value8/7, 10);
    var gender_value0 = gender_value8-(gender_value9*7);
-   alert(gender_value0);
+
    form.result1.value = months[gender_value2]+" "+form.day.value +", "+form.year.value
    form.result2.value = days[gender_value0]
 //Select Gender Name
@@ -123,7 +121,6 @@ function compute(form) {
      form.result3.value="Selected Male? Akan Name is Kwaku."+ " Selected Female? Akan Name is " + names[4];
    } else if (days[parseInt(gender_value0)]=="Thursday") {
      form.result3.value="Selected Male? Akan Name is Yaw."+ " Selected Female? Akan Name is " + names[5];
->>>>>>> master
    } else {
      form.result3.value="Selected Male? Akan Name is Kofi."+ " Selected Female? Akan Name is " + names[6];
    }
